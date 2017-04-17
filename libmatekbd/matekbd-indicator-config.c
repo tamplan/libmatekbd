@@ -247,6 +247,13 @@ matekbd_indicator_config_init (MatekbdIndicatorConfig * ind_config,
 	gtk_icon_theme_append_search_path (ind_config->icon_theme,
 					   sp =
 					   g_build_filename (DATADIR,
+							     "libmatekbd/flags",
+							     NULL));
+	g_free (sp);
+
+	gtk_icon_theme_append_search_path (ind_config->icon_theme,
+					   sp =
+					   g_build_filename (DATADIR,
 							     "pixmaps/flags",
 							     NULL));
 	g_free (sp);
