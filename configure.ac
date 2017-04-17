@@ -100,6 +100,7 @@ Makefile
 libmatekbd.pc
 libmatekbdui.pc
 po/Makefile.in
+flags/Makefile
 libmatekbd/Makefile
 libmatekbd/org.mate.peripherals-keyboard-xkb.gschema.xml
 test/Makefile

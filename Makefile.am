@@ -2,7 +2,7 @@ if BUILD_TESTS
 TEST = test
 endif
 
-SUBDIRS = libmatekbd $(TEST) po
+SUBDIRS = flags libmatekbd $(TEST) po
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
